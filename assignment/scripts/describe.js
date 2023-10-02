@@ -134,6 +134,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX mix is set to true but only 'colorOne' is changed to "purple"; I would use '&&' colorTwo = 'purple'
+
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,8 +147,14 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
 let temp = 40;
 const time = 4;
+
+
+//FIX the description says we want the 'if' function to ask for values of 'temp' AND 'time', but this code is using a function for "or".
+// it should use the '&&' function instead of '||'
+
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +168,11 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+
+//FIX we have swapped the log messages we desire to display for give values.  We could either swap the variables
+// to say "if(age <= minAge" or we could swap the message of the two console.log
+
 
 if(minAge <= age) {
   console.log('no entry');
