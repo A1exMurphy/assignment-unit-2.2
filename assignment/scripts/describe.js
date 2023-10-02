@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We make a variable called name and set it as Dane.
+// We add a conditional quandry using the if else function.  When the variable 'name' is encountered if the variable is Mary the console shall display "Hi, Mary!", for all other strings console shall display "How do you do?"
 // 
 //
 
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We add new variable 'secret'
+// We add new variable 'code' and set it to 123
+// We add a conditional quandry, when the variable 'code' is encountered and is exactly matching "123" the variable secret will be set to "super" and it will set the variable to itself times 2, instead of completing the function with an 'else' function we use another 'if' function for instances when the variable is greater than 250 it will set the 'secret' variable to "duper"
+// Last we use console.log to set the browser console to display the input for variable 'secret'
 
 //CODE
 /*
@@ -70,9 +70,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// In this code our 'if' function is asking for two parameters with the '&&' function.  Variable isStudent must exactly match the "true" value and the 'zip' value must be greater than 80000.
+// Next we add two conditional functions within the first 'if' function with the 'else if' function.  The first 'else if' logs its message if variable 'isStudent is exactly matching "false" or variable age is less than 30, we used the '||' function to make it an either-or function.
+// Our code reads the first 'if' quandry then the embeded 'else if' quandries, and if the conditions of none of them are statisfied the first 'if' function is closed by a bounded 'else' function to log the message "How about the weather?"
 //
 
 //CODE
